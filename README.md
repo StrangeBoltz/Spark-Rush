@@ -82,4 +82,4 @@ Enjoy playing SparkRush and happy coding! If you have any questions or suggestio
 
 ![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTkwNTY4NS5qcGVn/original/B2md3S.jpeg)
 
-[Watch SparkRush Here](https://www.youtube.com/watch?v=Wt2VGBPkvvQ&t=28s)
+[Watch A Youtube Video of SparkRush Here](https://www.youtube.com/watch?v=Wt2VGBPkvvQ&t=28s)
