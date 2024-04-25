@@ -1,0 +1,121 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Boids3D_Renderer_Start_m1BA61906A8ACEB8239F14DD812EB9253DBBF6A85 (void);
+extern void Boids3D_Renderer_RemoveBoidMesh_m9381DDF727E1C54706AE5BFB0A7E13715F6D047E (void);
+extern void Boids3D_Renderer_Update_m34DAA592A4C878E88E4C01DA5CAAD256E9A34E83 (void);
+extern void Boids3D_Renderer__ctor_mF18867B196ABD96F0781D8F78F657F8DF85B0C80 (void);
+extern void Boids3D_Simulator_Awake_mB7C84D7A997A3B413A20740EA8091AC5507C7233 (void);
+extern void Boids3D_Simulator_Start_mA21C29885F5593049051A811B4A65C63A653C467 (void);
+extern void Boids3D_Simulator_AddBoids_mB4E797A1AF1098CDC1C9FF6F6261A82402B328AC (void);
+extern void Boids3D_Simulator_RemoveBoids_m9636EE707D4EAEA185556E6CBA524161F60B43D6 (void);
+extern void Boids3D_Simulator_FixedUpdate_m48A8207D22DE5FB5FA203B45855D1EAA1CB23BF7 (void);
+extern void Boids3D_Simulator_GetBoundingForce_m885DCE7D8A8A15E318E3402EED4FBE6D64214EFC (void);
+extern void Boids3D_Simulator_Wander_mC70BE82C1ACFE708C9EF6AA9225DEF680CB65D5F (void);
+extern void Boids3D_Simulator_Update_mBD931C8A0AF4C62724FA5AB76DDE6B2F881A1FF1 (void);
+extern void Boids3D_Simulator_OnDrawGizmos_mA8085B39A43339CB1F02841C7BFD8D2AE24F094D (void);
+extern void Boids3D_Simulator__ctor_mFA0AAB2C6B478488C1C4148026486E454C377EED (void);
+extern void GameManager_Start_mEB4CEF7681C595A5A9002408FDADF76219061AB7 (void);
+extern void GameManager_Update_mDC8E955A223131E78535A0B06D50AD839CB1D2CF (void);
+extern void GameManager_GetRandomSpawnPosition_mD2D07182B558BA850F2016858DC7122D2C001420 (void);
+extern void GameManager_OnDrawGizmosSelected_m87C2BAD26D83A06A7A427EE5ABCA8B79F4168344 (void);
+extern void GameManager__ctor_mF338954CABBCDDE7CAB17D4C317B1FA339A8054E (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDE4A810F53234C9CC8A795B599396A5BBA6410B9 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9E5FD5FCFB86F60E22CD087C3984A8B1AA982097 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	Boids3D_Renderer_Start_m1BA61906A8ACEB8239F14DD812EB9253DBBF6A85,
+	Boids3D_Renderer_RemoveBoidMesh_m9381DDF727E1C54706AE5BFB0A7E13715F6D047E,
+	Boids3D_Renderer_Update_m34DAA592A4C878E88E4C01DA5CAAD256E9A34E83,
+	Boids3D_Renderer__ctor_mF18867B196ABD96F0781D8F78F657F8DF85B0C80,
+	Boids3D_Simulator_Awake_mB7C84D7A997A3B413A20740EA8091AC5507C7233,
+	Boids3D_Simulator_Start_mA21C29885F5593049051A811B4A65C63A653C467,
+	Boids3D_Simulator_AddBoids_mB4E797A1AF1098CDC1C9FF6F6261A82402B328AC,
+	Boids3D_Simulator_RemoveBoids_m9636EE707D4EAEA185556E6CBA524161F60B43D6,
+	Boids3D_Simulator_FixedUpdate_m48A8207D22DE5FB5FA203B45855D1EAA1CB23BF7,
+	Boids3D_Simulator_GetBoundingForce_m885DCE7D8A8A15E318E3402EED4FBE6D64214EFC,
+	Boids3D_Simulator_Wander_mC70BE82C1ACFE708C9EF6AA9225DEF680CB65D5F,
+	Boids3D_Simulator_Update_mBD931C8A0AF4C62724FA5AB76DDE6B2F881A1FF1,
+	Boids3D_Simulator_OnDrawGizmos_mA8085B39A43339CB1F02841C7BFD8D2AE24F094D,
+	Boids3D_Simulator__ctor_mFA0AAB2C6B478488C1C4148026486E454C377EED,
+	GameManager_Start_mEB4CEF7681C595A5A9002408FDADF76219061AB7,
+	GameManager_Update_mDC8E955A223131E78535A0B06D50AD839CB1D2CF,
+	NULL,
+	GameManager_GetRandomSpawnPosition_mD2D07182B558BA850F2016858DC7122D2C001420,
+	GameManager_OnDrawGizmosSelected_m87C2BAD26D83A06A7A427EE5ABCA8B79F4168344,
+	GameManager__ctor_mF338954CABBCDDE7CAB17D4C317B1FA339A8054E,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDE4A810F53234C9CC8A795B599396A5BBA6410B9,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9E5FD5FCFB86F60E22CD087C3984A8B1AA982097,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	5148,
+	4134,
+	5148,
+	5148,
+	5148,
+	5148,
+	4134,
+	4134,
+	5148,
+	769,
+	195,
+	5148,
+	5148,
+	5148,
+	5148,
+	5148,
+	0,
+	5139,
+	5148,
+	5148,
+	7506,
+	5148,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x06000011, { 0, 4 } },
+};
+extern const uint32_t g_rgctx_Object_FindObjectsOfType_TisT_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809_mB70DC2319F17CB9ACCED3851B27E2F1B979AB2EB;
+extern const uint32_t g_rgctx_TU5BU5D_t8BD3EBD1D3053C8505B29CD3C313D889639BC3B0;
+extern const uint32_t g_rgctx_T_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809;
+extern const uint32_t g_rgctx_T_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809;
+static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Object_FindObjectsOfType_TisT_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809_mB70DC2319F17CB9ACCED3851B27E2F1B979AB2EB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t8BD3EBD1D3053C8505B29CD3C313D889639BC3B0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t6150F0144CC76B6C3F2F8E19A9B287CB9B89C809 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Boids_CodeGenModule;
+const Il2CppCodeGenModule g_Boids_CodeGenModule = 
+{
+	"Boids.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	4,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
