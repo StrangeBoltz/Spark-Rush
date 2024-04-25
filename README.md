@@ -14,15 +14,16 @@ Welcome to the SparkRush repository! This repository contains the Unity files fo
 
 ## About SparkRush
 
-⁺˚*｡.°⑅Collect Power Sparks⁺˚*｡.°⑅
+Collect Power Sparks! Guide your adorable battery shaped alien through a dazzling adventure in the cosmos. With intuitive controls , navigate up and down using the arrow keys, mastering altitude with finesse. Glide through space with left and right turns to maneuvering your way through the cosmic expanse.
 
-In Spark Rush!, take control of your alien avatar with intuitive controls designed for seamless navigation through the cosmos. Utilize the up and down arrow keys to maneuver vertically, mastering the art of altitude in your quest for power. Meanwhile, the left and right arrow keys serve as your guiding compass, facilitating sharp turns and agile maneuvers as you explore the vast expanse of space.
 
-Engage your thrusters and propel yourself forward with a simple press of the Space Bar, propelling your alien protagonist through the cosmic landscape with graceful finesse. As you soar through the stars, your mission unfolds against the backdrop of a ticking clock: you have a mere 60 seconds to harness as many power sparks as you can before the looming threat of another power outage descends upon you.
+Activate your thrusters with a tap of the Space Bar, sending your battery character soaring through the stars with grace. Your mission? Gather as many power sparks as possible within a tight 60-second window to unlock the next level. 
 
-During gameplay your cosmic adventure is not just a visual spectacle—it's a symphony of sights and sounds that will transport you to another realm entirely. While you navigate the boundless reaches of space with precision and skill, you'll be accompanied by a breathtaking soundtrack that enhances every moment of your journey.
 
-Your ultimate goal? To achieve a high score worthy of the online leaderboards, a testament to your skill and determination in the face of cosmic adversity. Will you rise to the challenge, ascending to the pinnacle of cosmic glory, or will you be lost to the void, another fleeting star in the endless expanse of the universe? The choice is yours in Spark Rush!
+As you journey through space, immerse yourself in a symphony of sights and sounds, accompanied by a captivating soundtrack that elevates every moment. Your goal is simple: achieve a high score worthy of the leaderboards, showcasing your skill and determination against cosmic power spark challenges.
+
+
+Will you ascend to the heights of online glory, your name etched among the stars on the leaderboards? Or will you fade into the abyss like a fleeting comet, destined to be forgotten amidst the vastness of space? The fate of a universe on the brink of power outage lies squarely in your hands during the electrifying journey of Spark Rush!
 
 ## Why Open Source?
 
