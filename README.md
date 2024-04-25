@@ -10,7 +10,7 @@
 
 Welcome to the SparkRush repository! This repository contains the Unity files for the game SparkRush, an exciting cosmic adventure where players navigate through space collecting power sparks before time runs out.
 
-![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTgzMDI5Mi5qcGVn/original/7vwFtv.jpeg)
+![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTkwNTY4OS5qcGVn/original/MgyoVE.jpeg)
 
 ## About SparkRush
 
@@ -73,4 +73,11 @@ Enjoy playing SparkRush and happy coding! If you have any questions or suggestio
 
 
 
-![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTgzMDI5NS5qcGVn/original/2Kb3Xa.jpeg)
+![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTkwNTY4My5qcGVn/original/I4MYBP.jpeg)
+
+
+![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTkwNTY4Ny5qcGVn/original/8FawI0.jpeg)
+
+
+
+![SparkRush Screenshot](https://img.itch.zone/aW1hZ2UvMjY1Njg3MS8xNTkwNTY4NS5qcGVn/original/B2md3S.jpeg)
