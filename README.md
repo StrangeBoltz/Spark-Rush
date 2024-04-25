@@ -39,7 +39,7 @@ Or
 1. **Clone the Repository**: Clone this repository to your local machine using Git:
 
    ```
-   git clone https://github.com/your-username/SparkRush.git
+   git clone https://github.com/your-username/Spark-Rush.git
    ```
 
 2. **Open in Unity**: Open the project folder in Unity Hub and load the project.
