@@ -839,11 +839,9 @@
           {
             "name": "ParticleSystem",
             "scenes": [
-              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Level2Forest.unity",
               "Assets/Scenes/Level3Tundra.unity",
-              "Assets/Scenes/SPARKRUSH.unity",
-              "Assets/Scenes/Title Screen.unity"
+              "Assets/Scenes/SPARKRUSH.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -851,11 +849,9 @@
           {
             "name": "ParticleSystemRenderer",
             "scenes": [
-              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Level2Forest.unity",
               "Assets/Scenes/Level3Tundra.unity",
-              "Assets/Scenes/SPARKRUSH.unity",
-              "Assets/Scenes/Title Screen.unity"
+              "Assets/Scenes/SPARKRUSH.unity"
             ],
             "dependencyType": 0,
             "icon": null

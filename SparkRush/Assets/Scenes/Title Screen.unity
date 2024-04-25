@@ -3571,39 +3571,6 @@ Transform:
   - {fileID: 577802065}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!1 &1041749598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1041749599}
-  m_Layer: 0
-  m_Name: SparkSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1041749599
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041749598}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.745784, y: 17.949911, z: 16.51215}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1874704140}
-  - {fileID: 1581507469}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1043090306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4560,6 +4527,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1724890373340946786, guid: f560a9a6b3d326a4a90838a7101a3206, type: 3}
     - {fileID: 8383383790578384631, guid: f560a9a6b3d326a4a90838a7101a3206, type: 3}
+    - {fileID: 1352996741249227306, guid: f560a9a6b3d326a4a90838a7101a3206, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4754,93 +4722,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1581507468
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1581507469}
-  - component: {fileID: 1581507471}
-  - component: {fileID: 1581507470}
-  m_Layer: 0
-  m_Name: SparkyBoidz
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1581507469
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581507468}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 26.7, z: -14.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1041749599}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1581507470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581507468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ebbc3a2146cee4d90b2791e8a15f5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boidMeshPrefabs: []
-  bounds: {x: 100, y: 100, z: 100}
-  boundsScale: 1
-  boundingForce: 1
-  typeCount: 2
-  cellSize: 2
-  drag: 0.1
-  minSpeed: 1
-  maxSpeed: 2
-  cohesionRadius: 1
-  separationRadius: 0.5
-  alignmentRadius: 1
-  cohesionForce: 1
-  separationForce: 1
-  alignmentForce: 1
-  wanderRadius: 5
-  wanderDistance: 5
-  wanderAngleJitter: 45
-  wanderForce: 1
-  addBoidCount: 10
-  addBoidRandomSpeedScale: 1
-  debugBase: 0
-  debugText: 0
-  debugWander: 0
-  debugRadius: 0.1
-  debugColour: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1581507471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581507468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43857f4f21f636b46bc9aba194472199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boidMeshes: []
-  boidMeshPrefabs:
-  - {fileID: 6281886652248438148, guid: fca524bb582e1fd4da8001254290f033, type: 3}
-  - {fileID: 6281886652248438148, guid: f560a9a6b3d326a4a90838a7101a3206, type: 3}
 --- !u!1 &1604378040
 GameObject:
   m_ObjectHideFlags: 0
@@ -5339,54 +5220,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1874704139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1874704140}
-  - component: {fileID: 1874704141}
-  m_Layer: 0
-  m_Name: Spawn Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1874704140
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874704139}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1041749599}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1874704141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874704139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f27a64c0ba4428b4f8b07cf183355180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boindsOnStart: 777
-  spawnAreaCenter: {x: 0, y: 45.7, z: -14.1}
-  spawnAreaSize: {x: 10, y: 10, z: 10}
-  targetFPS: 60
 --- !u!1001 &1884292454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5882,7 +5715,6 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 537010404}
   - {fileID: 89859984}
-  - {fileID: 1041749599}
   - {fileID: 1837532411}
   - {fileID: 964993384}
   - {fileID: 1040725652}

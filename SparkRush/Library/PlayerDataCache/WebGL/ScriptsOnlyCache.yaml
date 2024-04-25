@@ -26,6 +26,7 @@ ScriptsOnlyBuild:
     - Cinemachine.PostFX.CinemachinePostProcessing
     DamageNumbersPro.dll:
     - DamageNumbersPro.DamageNumberMesh
+    - DamageNumbersPro.Internal.DNPPreset
     Dan:
     - Dan.LeaderboardCreatorConfig
     TiltBrushToolkitRuntime:
@@ -56,8 +57,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.TextMeshPro.Editor.dll:
-    - TMPro.EditorUtilities.TMP_EditorPanel
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
@@ -226,8 +225,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17080}
     - Class: 114
-      Script: {instanceID: 17860}
-    - Class: 114
       Script: {instanceID: 18004}
     - Class: 114
       Script: {instanceID: 18184}
@@ -242,13 +239,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18848}
     - Class: 114
-      Script: {instanceID: 19080}
-    - Class: 114
       Script: {instanceID: 19350}
     - Class: 114
       Script: {instanceID: 19362}
-    - Class: 114
-      Script: {instanceID: 19386}
     - Class: 114
       Script: {instanceID: 19546}
     - Class: 114
@@ -274,8 +267,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22414}
     - Class: 114
-      Script: {instanceID: 22610}
-    - Class: 114
       Script: {instanceID: 22612}
     - Class: 114
       Script: {instanceID: 22880}
@@ -285,8 +276,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23682}
     - Class: 114
       Script: {instanceID: 24204}
-    - Class: 114
-      Script: {instanceID: 24584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -294,10 +283,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
       Script: {instanceID: 0}
     - Class: 210
       Script: {instanceID: 0}
@@ -792,8 +777,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17840}
     - Class: 114
-      Script: {instanceID: 17860}
-    - Class: 114
       Script: {instanceID: 18004}
     - Class: 114
       Script: {instanceID: 18184}
@@ -807,8 +790,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 18660}
     - Class: 114
       Script: {instanceID: 18848}
-    - Class: 114
-      Script: {instanceID: 19080}
     - Class: 114
       Script: {instanceID: 19350}
     - Class: 114
@@ -844,8 +825,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22414}
     - Class: 114
-      Script: {instanceID: 22610}
-    - Class: 114
       Script: {instanceID: 22612}
     - Class: 114
       Script: {instanceID: 22880}
@@ -855,8 +834,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23682}
     - Class: 114
       Script: {instanceID: 24204}
-    - Class: 114
-      Script: {instanceID: 24584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -866,10 +843,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
       Script: {instanceID: 0}
     - Class: 210
       Script: {instanceID: 0}
